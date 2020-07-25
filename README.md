@@ -1,3 +1,3 @@
 # README
 
-Enterr Your Test and get Your all kind of hashes
+Enter Your Text and get all type of hashes
