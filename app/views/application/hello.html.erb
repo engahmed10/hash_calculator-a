@@ -1,0 +1,23 @@
+<form  action="/hashes"  method="POST" >
+<label style="height: 70px; ">Enter you text : </label>
+<textarea name="name" style="width:300px; height: 70px; maxlength="300"; display:none;">
+</textarea></br>
+<input type="submit" value="Hashed">
+</form>
+<br>
+
+<%if @hash != nil%>
+<label>SHA2 :</label>
+<%=@hashed%><br>
+<label>MD5 :</label>
+<%=@md5%><br>
+<label>RMD160 :</label>
+<%= @rmd160%><br>
+<label>SHA1 :</label>
+<%= @sha1%><br>
+<label>SHA3 :</label>
+<%= @sha3%><br>
+<%end%>
+
+
+
