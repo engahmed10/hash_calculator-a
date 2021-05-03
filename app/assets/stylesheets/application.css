@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+ <%= stylesheet_link_tag 'application.html.erb' %>
+
+
+ .container{
+    margin: 5rem;
+    background-color:red;
+ }
